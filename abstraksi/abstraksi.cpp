@@ -2,7 +2,14 @@
 using namespace std;
 
 class AbstraksiKlas {
-private:
+private: string x, y;
+
+public:
+    void setXY(string a, string b) {
+        x = a;
+        x = b;
+}
+
 };
 
 int main()
